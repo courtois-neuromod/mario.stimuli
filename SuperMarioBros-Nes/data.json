@@ -100,6 +100,10 @@
       "address": 206,
       "type": "|u1"
     },
+    "player_y_screen": {
+      "address": 181,
+      "type": "|i1"
+    },
     "powerstate": {
       "address": 1878,
       "type": ">d4"
