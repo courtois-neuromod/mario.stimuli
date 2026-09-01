@@ -4,20 +4,16 @@
       "address": 1888,
       "type": "<u2"
     },
-    "area_music": {
-      "address": 251,
+    "area_type": {
+      "address": 1870,
       "type": "|u1"
     },
     "coins": {
       "address": 1886,
       "type": "|u1"
     },
-    "crouching_flag": {
-      "address": 1812,
-      "type": "|u1"
-    },
-    "death_music_loaded": {
-      "address": 1810,
+    "enemy_collision_bits": {
+      "address": 1169,
       "type": "|u1"
     },
     "enemy_drawn15": {
@@ -38,6 +34,38 @@
     },
     "enemy_drawn19": {
       "address": 19,
+      "type": "|u1"
+    },
+    "enemy_drawn20": {
+      "address": 20,
+      "type": "|u1"
+    },
+    "enemy_frenzy_buffer": {
+      "address": 1739,
+      "type": "|u1"
+    },
+    "enemy_id_0": {
+      "address": 22,
+      "type": "|u1"
+    },
+    "enemy_id_1": {
+      "address": 23,
+      "type": "|u1"
+    },
+    "enemy_id_2": {
+      "address": 24,
+      "type": "|u1"
+    },
+    "enemy_id_3": {
+      "address": 25,
+      "type": "|u1"
+    },
+    "enemy_id_4": {
+      "address": 26,
+      "type": "|u1"
+    },
+    "enemy_id_5": {
+      "address": 27,
       "type": "|u1"
     },
     "enemy_kill30": {
@@ -64,47 +92,151 @@
       "address": 35,
       "type": "|u1"
     },
-    "enemy_state_0": {
-      "address": 30,
+    "enemy_offscr_masked_0": {
+      "address": 984,
       "type": "|u1"
     },
-    "enemy_state_1": {
-      "address": 31,
+    "enemy_offscr_masked_1": {
+      "address": 985,
       "type": "|u1"
     },
-    "enemy_state_2": {
-      "address": 32,
+    "enemy_offscr_masked_2": {
+      "address": 986,
       "type": "|u1"
     },
-    "enemy_state_3": {
-      "address": 33,
+    "enemy_offscr_masked_3": {
+      "address": 987,
       "type": "|u1"
     },
-    "enemy_state_4": {
-      "address": 34,
+    "enemy_offscr_masked_4": {
+      "address": 988,
       "type": "|u1"
     },
-    "enemy_type_0": {
-      "address": 22,
+    "enemy_offscr_masked_5": {
+      "address": 989,
       "type": "|u1"
     },
-    "enemy_type_1": {
-      "address": 23,
+    "enemy_pageloc_0": {
+      "address": 110,
       "type": "|u1"
     },
-    "enemy_type_2": {
-      "address": 24,
+    "enemy_pageloc_1": {
+      "address": 111,
       "type": "|u1"
     },
-    "enemy_type_3": {
-      "address": 25,
+    "enemy_pageloc_2": {
+      "address": 112,
       "type": "|u1"
     },
-    "enemy_type_4": {
-      "address": 26,
+    "enemy_pageloc_3": {
+      "address": 113,
       "type": "|u1"
     },
-    "event_music": {
+    "enemy_pageloc_4": {
+      "address": 114,
+      "type": "|u1"
+    },
+    "enemy_pageloc_5": {
+      "address": 115,
+      "type": "|u1"
+    },
+    "enemy_sprattrib_0": {
+      "address": 965,
+      "type": "|u1"
+    },
+    "enemy_sprattrib_1": {
+      "address": 966,
+      "type": "|u1"
+    },
+    "enemy_sprattrib_2": {
+      "address": 967,
+      "type": "|u1"
+    },
+    "enemy_sprattrib_3": {
+      "address": 968,
+      "type": "|u1"
+    },
+    "enemy_sprattrib_4": {
+      "address": 969,
+      "type": "|u1"
+    },
+    "enemy_sprattrib_5": {
+      "address": 970,
+      "type": "|u1"
+    },
+    "enemy_x_0": {
+      "address": 135,
+      "type": "|u1"
+    },
+    "enemy_x_1": {
+      "address": 136,
+      "type": "|u1"
+    },
+    "enemy_x_2": {
+      "address": 137,
+      "type": "|u1"
+    },
+    "enemy_x_3": {
+      "address": 138,
+      "type": "|u1"
+    },
+    "enemy_x_4": {
+      "address": 139,
+      "type": "|u1"
+    },
+    "enemy_x_5": {
+      "address": 140,
+      "type": "|u1"
+    },
+    "enemy_y_0": {
+      "address": 207,
+      "type": "|u1"
+    },
+    "enemy_y_1": {
+      "address": 208,
+      "type": "|u1"
+    },
+    "enemy_y_2": {
+      "address": 209,
+      "type": "|u1"
+    },
+    "enemy_y_3": {
+      "address": 210,
+      "type": "|u1"
+    },
+    "enemy_y_4": {
+      "address": 211,
+      "type": "|u1"
+    },
+    "enemy_y_5": {
+      "address": 212,
+      "type": "|u1"
+    },
+    "enemy_y_high_0": {
+      "address": 182,
+      "type": "|u1"
+    },
+    "enemy_y_high_1": {
+      "address": 183,
+      "type": "|u1"
+    },
+    "enemy_y_high_2": {
+      "address": 184,
+      "type": "|u1"
+    },
+    "enemy_y_high_3": {
+      "address": 185,
+      "type": "|u1"
+    },
+    "enemy_y_high_4": {
+      "address": 186,
+      "type": "|u1"
+    },
+    "enemy_y_high_5": {
+      "address": 187,
+      "type": "|u1"
+    },
+    "event_music_queue": {
       "address": 252,
       "type": "|u1"
     },
@@ -112,16 +244,12 @@
       "address": 1742,
       "type": "|u1"
     },
-    "frame_counter": {
-      "address": 9,
+    "frenzy_enemy_timer": {
+      "address": 1935,
       "type": "|u1"
     },
-    "game_pause_status": {
-      "address": 1910,
-      "type": "|u1"
-    },
-    "injury_timer": {
-      "address": 1950,
+    "halfway_page": {
+      "address": 1883,
       "type": "|u1"
     },
     "jump_airborne": {
@@ -148,16 +276,8 @@
       "address": 69,
       "type": "|u1"
     },
-    "oper_mode": {
-      "address": 1904,
-      "type": "|u1"
-    },
-    "player_facing_dir": {
-      "address": 51,
-      "type": "|u1"
-    },
-    "player_size": {
-      "address": 1876,
+    "player_collision_bits": {
+      "address": 1168,
       "type": "|u1"
     },
     "player_sprite": {
@@ -180,20 +300,12 @@
       "address": 134,
       "type": "|u1"
     },
-    "player_x_speed": {
-      "address": 1792,
-      "type": "|u1"
-    },
     "player_y_pos": {
       "address": 206,
       "type": "|u1"
     },
     "player_y_screen": {
       "address": 181,
-      "type": "|i1"
-    },
-    "player_y_speed": {
-      "address": 159,
       "type": "|i1"
     },
     "powerstate": {
@@ -203,10 +315,6 @@
     "powerup_appear": {
       "address": 57,
       "type": "<u1"
-    },
-    "powerup_type": {
-      "address": 57,
-      "type": "|u1"
     },
     "powerup_yes_no": {
       "address": 27,
@@ -220,18 +328,6 @@
       "address": 1912,
       "type": "|i1"
     },
-    "sfx_register_1": {
-      "address": 253,
-      "type": "|u1"
-    },
-    "sfx_register_2": {
-      "address": 254,
-      "type": "|u1"
-    },
-    "sfx_register_3": {
-      "address": 255,
-      "type": "|u1"
-    },
     "stage": {
       "address": 1884,
       "type": "<u2"
@@ -240,8 +336,8 @@
       "address": 1951,
       "type": "|u1"
     },
-    "swimming_flag": {
-      "address": 1796,
+    "stomp_chain_counter": {
+      "address": 1156,
       "type": "|u1"
     },
     "time": {
