@@ -4,12 +4,24 @@
       "address": 1888,
       "type": "<u2"
     },
+    "area_music": {
+      "address": 251,
+      "type": "|u1"
+    },
     "area_type": {
       "address": 1870,
       "type": "|u1"
     },
     "coins": {
       "address": 1886,
+      "type": "|u1"
+    },
+    "crouching_flag": {
+      "address": 1812,
+      "type": "|u1"
+    },
+    "death_music_loaded": {
+      "address": 1810,
       "type": "|u1"
     },
     "enemy_collision_bits": {
@@ -164,6 +176,46 @@
       "address": 970,
       "type": "|u1"
     },
+    "enemy_state_0": {
+      "address": 30,
+      "type": "|u1"
+    },
+    "enemy_state_1": {
+      "address": 31,
+      "type": "|u1"
+    },
+    "enemy_state_2": {
+      "address": 32,
+      "type": "|u1"
+    },
+    "enemy_state_3": {
+      "address": 33,
+      "type": "|u1"
+    },
+    "enemy_state_4": {
+      "address": 34,
+      "type": "|u1"
+    },
+    "enemy_type_0": {
+      "address": 22,
+      "type": "|u1"
+    },
+    "enemy_type_1": {
+      "address": 23,
+      "type": "|u1"
+    },
+    "enemy_type_2": {
+      "address": 24,
+      "type": "|u1"
+    },
+    "enemy_type_3": {
+      "address": 25,
+      "type": "|u1"
+    },
+    "enemy_type_4": {
+      "address": 26,
+      "type": "|u1"
+    },
     "enemy_x_0": {
       "address": 135,
       "type": "|u1"
@@ -236,6 +288,10 @@
       "address": 187,
       "type": "|u1"
     },
+    "event_music": {
+      "address": 252,
+      "type": "|u1"
+    },
     "event_music_queue": {
       "address": 252,
       "type": "|u1"
@@ -244,12 +300,24 @@
       "address": 1742,
       "type": "|u1"
     },
+    "frame_counter": {
+      "address": 9,
+      "type": "|u1"
+    },
     "frenzy_enemy_timer": {
       "address": 1935,
       "type": "|u1"
     },
+    "game_pause_status": {
+      "address": 1910,
+      "type": "|u1"
+    },
     "halfway_page": {
       "address": 1883,
+      "type": "|u1"
+    },
+    "injury_timer": {
+      "address": 1950,
       "type": "|u1"
     },
     "jump_airborne": {
@@ -276,8 +344,20 @@
       "address": 69,
       "type": "|u1"
     },
+    "oper_mode": {
+      "address": 1904,
+      "type": "|u1"
+    },
     "player_collision_bits": {
       "address": 1168,
+      "type": "|u1"
+    },
+    "player_facing_dir": {
+      "address": 51,
+      "type": "|u1"
+    },
+    "player_size": {
+      "address": 1876,
       "type": "|u1"
     },
     "player_sprite": {
@@ -300,12 +380,20 @@
       "address": 134,
       "type": "|u1"
     },
+    "player_x_speed": {
+      "address": 1792,
+      "type": "|u1"
+    },
     "player_y_pos": {
       "address": 206,
       "type": "|u1"
     },
     "player_y_screen": {
       "address": 181,
+      "type": "|i1"
+    },
+    "player_y_speed": {
+      "address": 159,
       "type": "|i1"
     },
     "powerstate": {
@@ -315,6 +403,10 @@
     "powerup_appear": {
       "address": 57,
       "type": "<u1"
+    },
+    "powerup_type": {
+      "address": 57,
+      "type": "|u1"
     },
     "powerup_yes_no": {
       "address": 27,
@@ -328,6 +420,18 @@
       "address": 1912,
       "type": "|i1"
     },
+    "sfx_register_1": {
+      "address": 253,
+      "type": "|u1"
+    },
+    "sfx_register_2": {
+      "address": 254,
+      "type": "|u1"
+    },
+    "sfx_register_3": {
+      "address": 255,
+      "type": "|u1"
+    },
     "stage": {
       "address": 1884,
       "type": "<u2"
@@ -338,6 +442,10 @@
     },
     "stomp_chain_counter": {
       "address": 1156,
+      "type": "|u1"
+    },
+    "swimming_flag": {
+      "address": 1796,
       "type": "|u1"
     },
     "time": {
